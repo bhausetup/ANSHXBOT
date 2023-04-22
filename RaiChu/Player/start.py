@@ -47,23 +47,23 @@ Feel free to add me to your groups.
             [
                 [                   
                     InlineKeyboardButton(
-                        "Commands & Help ❔", callback_data="cbbasic"
+                        "⚜️ᴄᴏᴍᴍᴀɴᴅꜱ & ʜᴇʟᴘ⚜️", callback_data="cbbasic"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "How to Use Me ❓", callback_data="cbhowtouse"
+                        "🪄ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ🪄", callback_data="cbhowtouse"
                     ),
                   ],[
                     InlineKeyboardButton(
-                       "Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                       "🔕ᴜᴘᴅᴀᴛᴇꜱ🔕", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                       "Support", url=f"https://t.me/{GROUP_SUPPORT}"
+                       "🚫ꜱᴜᴘᴘᴏʀᴛ🚫", url=f"https://t.me/{GROUP_SUPPORT}"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕",
+                        "🌺ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢᴄ ʙʙʏ🌺",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ]
@@ -76,13 +76,13 @@ Feel free to add me to your groups.
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f01f58c3d9b187ae1d8a1.jpg",
+        photo=f"https://telegra.ph/file/72fc4ed0b02894736b3b7.jpg",
         caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/AMANTYA1/RaiChu-MusicV2")
+                        "💢ʀᴇᴘᴏ💢", url=f"https://t.me/ISHQ00_I")
                 ]
             ]
         ),
