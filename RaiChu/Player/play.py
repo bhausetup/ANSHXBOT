@@ -31,14 +31,14 @@ from RaiChu.inline import stream_markup, audio_markup
 
 def ytsearch(query):
     try:
-        search = VideosSearch(query, limit=1).result()
-        data = search["result"][0]
-        songname = data["title"]
-        url = data["link"]
-        duration = data["duration"]
-        thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
-        videoid = data["id"]
-        return [songname, url, duration, thumbnail, videoid]
+       ꜱᴏɴɢɴᴀᴍᴇ = VideosSearch(query, limit=1).result()
+       ꜱᴇᴀʀᴄʜ = search["result"][0]
+       ᴅᴀᴛᴀ = data["title"]
+        ᴜʀʟ = data["link"]
+        ᴅᴜʀᴀᴛɪᴏɴ = data["duration"]
+        ᴛʜᴜᴍʙɴᴀɪʟ = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
+       ᴠɪᴅᴇᴏɪᴅ  = data["id"]
+        ʀᴇᴛᴜʀɴ [songname, url, duration, thumbnail, videoid]
     except Exception as e:
         print(e)
         return 0
@@ -50,18 +50,18 @@ async def ytdl(format: str, link: str):
         return 1, stdout.split("\n")[0]
     return 0, stderr
 
-chat_id = None
-DISABLED_GROUPS = []
-useer = "NaN"
-ACTV_CALLS = []
+ᴄʜᴀᴛ_ɪᴅ = None
+ᴅɪꜱᴀʙʟᴇᴅ_ɢʀᴏᴜᴘꜱ = []
+ᴜꜱᴇᴇʀ = "NaN"
+ᴀᴄᴛᴠ_ᴄᴀʟʟꜱ = []
 
     
 @Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
 async def play(c: Client, m: Message):
     await m.delete()
     replied = m.reply_to_message
-    chat_id = m.chat.id
-    user_id = m.from_user.id
+    ᴄʜᴀᴛ_ɪᴅ = m.chat.id
+     ᴜꜱᴇᴇʀ_ɪᴅ = m.from_user.id
     buttons = audio_markup(user_id)
     if m.sender_chat:
         return await m.reply_text("You're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
