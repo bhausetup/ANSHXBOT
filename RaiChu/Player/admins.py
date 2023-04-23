@@ -16,12 +16,12 @@ from pyrogram.types import (
 from RaiChu.inline import stream_markup
 
 bttn = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🔙 Go Back", callback_data="cbmenu")]]
+    [[InlineKeyboardButton("🔞ɢᴏ ʙᴀᴄᴋ🔞", callback_data="cbmenu")]]
 )
 
 
 bcl = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🗑 Close", callback_data="cls")]]
+    [[InlineKeyboardButton("💢ᴄʟᴏꜱᴇ💢", callback_data="cls")]]
 )
 
 
