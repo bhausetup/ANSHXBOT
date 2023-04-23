@@ -26,7 +26,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 </p>  
 
 ## Repo Stats
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=AMANTYA1&repo=RaiChuMusic&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=bhausetup&repo=ANSHXBOT&theme=dark)
 
 ## Find me here : [ANSH](https://t.me/I_LOVE_YOU_MY_HEARTBEET)
 
@@ -42,7 +42,7 @@ telegram bot project for streaming video on telegram video chat, powered by [tgc
 
 🏷️ --**Common Commands**-- :
 
-COMMAND | FUNCTION 👻
+COMMAND | FUNCTION 👻kar
 :--- | :---
 `/start` | start bot
 `/help`| get help
